@@ -213,11 +213,11 @@ nav > a:hover::after{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 .main-one>.img-2{
-    background-image: url(/asset/Picture/khmer-food-som-tum-papaya-salad.jpg);
+    background-image: url(../asset/Picture/khmer-food-som-tum-papaya-salad.jpg);
     background-size: cover;
 }
 .main-one>.img-3{
-    background-image: url(/asset/Picture/tom-yum-mama-with-squid-boiled-egg.jpg);
+    background-image: url(../asset/Picture/tom-yum-mama-with-squid-boiled-egg.jpg);
     background-size: cover;
 }
 .main-one>.img-1>h2{
@@ -233,11 +233,11 @@ nav > a:hover::after{
     font-size: 30px;
 }
 .main-three>.img-4{
-    background-image: url(/asset/Picture/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate.jpg);
+    background-image: url(../asset/Picture/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate.jpg);
     background-size: cover;
 }
 .main-three>.img-6{
-    background-image: url(/asset/Picture/chicken-curry-black-cup-with-rice-noodles.jpg);
+    background-image: url(../asset/Picture/chicken-curry-black-cup-with-rice-noodles.jpg);
     background-size: cover;
 }
 .main-two{

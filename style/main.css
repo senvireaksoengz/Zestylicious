@@ -37,26 +37,25 @@ header{
 }
 .search-bar{
     display: flex;
-    width: 200px;
-    justify-content: flex-end;
+    position: relative;
 }
-.search-bar>input{
-    width: 100%;
+.search-bar input{
+    width: 300px;
     font-family: inherit;
+    position: relative;
     padding: 10px;
     border-radius: 20px;
     border:1px solid black;
     color: black;
     font-size: 15px;
 }
-.search-bar>i{
+.search-bar i{
     font-size: 20px;
-    margin-left: 10px;
     color: black;
-    cursor: pointer;
-    padding: 6px;
     position: absolute;
-    padding: 8px;
+    cursor: pointer;
+    padding: 9px;
+    right: 0;
 }
 .search>a{
     font-size: 25px;
@@ -68,13 +67,12 @@ header{
     align-items: center;
     border: 1px solid black;
     border-radius: 50%;
-    &:hover{
-        transform: scale(110%);
+}
+.search a:hover{
+    transform: scale(110%);
         background-color: gray;
         border: 1px solid gray;
         color: white;
-    }
-    
 }
 .menu-btn{
     display: flex;
@@ -312,9 +310,10 @@ nav > a:hover::after{
     flex-wrap: wrap;
     height: 45px;
     font-size: 35px;
-    &:hover{
-        color:  #ff6b35;
-        }
+}
+.footer-icon:hover{
+    color:  #ff6b35;
+
 }
 .footer-1>h3{
     margin-top: 90px;
@@ -485,9 +484,10 @@ ins{
 @media only screen and (max-width: 844px) {
     header{
         width: 100%;
-        gap: 0;
-        justify-content: center;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
     }
     header .menu-btn{
         gap:5px;
@@ -503,18 +503,37 @@ ins{
     }
     header .menu-btn a> i{
         font-size: 25px;
+        margin-left: 0.5rem;
     }
     header .header-center h1 {
         display: none;
     }
-    header .search a {
-        display: none;
-    }
     header .search .search-bar input {
-        width: 80%;
+        width:100%;
+    }
+    .search-bar input{
+        width: 300px;
+        font-family: inherit;
+        position: relative;
+        padding: 10px;
+        border-radius: 20px;
+        border:1px solid black;
+        color: black;
+        font-size: 15px;
+    }
+    .search-bar i{
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        cursor: pointer;
+        padding: 9px;
+        right: 0;
+    }
+    header .search a {
+        margin-right: 0.5rem;
     }
     nav a {
-        font-size: 13px;
+        font-size: 15px;
     }
     .display{
         display: flex;
@@ -531,7 +550,7 @@ ins{
         font-size: 25px;
     }
     nav > a::after{
-        bottom: -11px;
+        bottom: -14px;
     }
     .main-one{
         display: grid;
@@ -539,7 +558,7 @@ ins{
         align-items: center;
     }
     .main-one>div{
-        width: 380px;
+        width: 350px;
         height: 250px;
         margin: 5px;
         padding: 5px;
@@ -583,7 +602,7 @@ ins{
         flex-direction: column ;    
     }
     .main-three>div{
-        width: 380px;
+        width: 350px;
         height: 250px;
         margin: 5px;
         padding: 5px;

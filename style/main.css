@@ -550,7 +550,7 @@ ins{
         font-size: 25px;
     }
     nav > a::after{
-        bottom: -9px;
+        bottom: -8px;
     }
     .main-one{
         display: grid;

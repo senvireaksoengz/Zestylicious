@@ -78,7 +78,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 .menu-btn > a {
     font-size: 25px;
@@ -89,7 +89,6 @@ header{
     justify-content: center;
     border: 1px solid black;
     border-radius: 50%;
-    margin-left: 0.5rem;
 }
 .menu-btn > a:hover{
     background-color: gray;
@@ -501,6 +500,7 @@ ins{
         border: none;
         border: 1px solid black;
         border-radius: 50%;
+        margin-left: 2px;
     }
     header .menu-btn a> i{
         font-size: 25px;
@@ -618,7 +618,7 @@ ins{
     }
     .main-three>.img-5>p{
         color: white;
-        font-size: 19px;
+        font-size: 18px;
         padding: 5px;
     }
     .footer-one{
